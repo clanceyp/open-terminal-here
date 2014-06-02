@@ -1,0 +1,21 @@
+{
+  "name": "open-terminal-here",
+  "main": "./lib/open-terminal-here",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "activationEvents": [
+      "open-terminal-here:toggle",
+      "open-terminal-here:open-terminal-editor",
+      "open-terminal-here:open-terminal-menu"
+  ],
+  "repository": "https://github.com/atom/open-terminal-here",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "private": true,
+  "dependencies": {
+    "fs-plus": "^2.0.4",
+    "underscore-plus": "1.x"
+  }
+}
